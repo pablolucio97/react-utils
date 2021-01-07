@@ -37,7 +37,7 @@ function CountdownCard() {
             }
 
            
-        }, 1)
+        }, 1000)
         return () => clearInterval(timer)
     }, [seconds])
 
